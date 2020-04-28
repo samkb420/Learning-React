@@ -1,0 +1,43 @@
+.body{
+	background-color: whitesmoke;
+}
+
+.card{
+	border: 1px solid #efefef;
+	margin: auto;
+	display: flex;
+	/*color: darkgrey;*/
+	text-decoration-color: #000;
+	box-shadow: 
+
+	0 1px 1px rgba(0,0,0,0.15),
+	0 10px 0 -5px #eee,
+	0 1px 1px -4px rgba(0,0,0,0.15),
+	0 20px 0px -10px #eee ,
+
+
+
+	padding:30px;
+
+}
+
+/*.fa-heart{
+	color: red;
+}*/
+
+@keyframes love{
+	0%{color: black;}
+	25%{color: pink;}
+	50%{color: green;}
+	75%{color: blue;}
+	100%{color: yellow;}
+}
+.fa-thumbs-up{
+	animation-name: love;
+	animation-delay: 1s;
+	animation-duration: 9s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
